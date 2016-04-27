@@ -1,0 +1,17 @@
+body {
+	background-color: #273746;
+	color: #8f8f8f;
+}
+
+.header {
+	margin: 50px 80px 50px 80px;
+	text-align: center;
+	color: #3498DB;
+	display: inline;
+	font-family: papyrus;
+	letter-spacing: 5px;
+	padding: 50px;
+}
+
+.header img {
+}
