@@ -4,6 +4,7 @@ app.factory('suggestions', [function() {
             {
                 title: 'Free pizza at club meetings',
                 upvotes: 15,
+                id: 0,
                 comments: [
                     {
                         body: 'Bring soda too!!',
@@ -22,6 +23,7 @@ app.factory('suggestions', [function() {
             {
                 title: 'End all club emails with Laffy Taffy jokes',
                 upvotes: 9,
+                id: 1,
                 comments: [
                     {
                         body: 'Why Laffy Taffy? Let\'s use pizza jokes?',
@@ -40,11 +42,13 @@ app.factory('suggestions', [function() {
             {
                 title: 'Retrofit water fountains with Gatorade',
                 upvotes: 7,
+                id: 2,
                 comments: [],
             },
             {
-                title: 'Sing Bon Jovi\'s "Living on a Prayer" halfway through mettings',
+                title: 'Sing Bon Jovi\'s "Living on a Prayer" halfway through meetings',
                 upvotes: 3,
+                id: 3,
                 comments: [],
             },
         ]
