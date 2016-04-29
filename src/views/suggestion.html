@@ -2,12 +2,14 @@
 
 	<div class="suggestion">
 	    <h2> {{ post.title }} </h2>
+	    <hr class="style1">
 	</div>
 	
 	<div class="comment" ng-repeat="comment in post.comments">
-	    <h1> {{ comment.body }} </h1>
+	    <h1> - {{ comment.body }} </h1>
 	    <p>
 	        <span class="glyphicon glyphicon-plus-sign" ng-click="upVote(comment)"></span>
+	        <span class="upvotes">Upvotes: {{ comment.upvotes }}</span>
 	    </p>
 	    <hr>
 	</div>

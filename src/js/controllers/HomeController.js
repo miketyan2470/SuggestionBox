@@ -13,7 +13,6 @@ app.controller('HomeController', [
                 title: $scope.title,
                 upvotes: 0,
                 comments: [],
-                id: $scope.posts.length,
             });
             $scope.title = '';
         };
