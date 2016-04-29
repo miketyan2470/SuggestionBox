@@ -2,7 +2,7 @@ app.factory('suggestions', [function() {
     var demoSuggestions = {
         posts: [
             {
-                title: 'Free pizza at club meetings!... or burgers... or chips... actually, any type of food would be great!',
+                title: 'Free pizza at club meetings!... or burgers... or chips... actually any type of food would be great!',
                 upvotes: 15,
                 id: 0,
                 comments: [

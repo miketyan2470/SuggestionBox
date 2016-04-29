@@ -1,7 +1,7 @@
 app.controller('SuggestionController', [
     '$scope',
     '$routeParams',
-    'suggestions,',
+    'suggestions',
 
     function($scope, $routeParams, suggestions) {
         $scope.post = suggestions.posts[$routeParams.id];
